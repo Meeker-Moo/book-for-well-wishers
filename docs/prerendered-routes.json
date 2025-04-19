@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/book-for-well-wishers": {},
+    "/book-for-well-wishers/list-wishers": {},
+    "/book-for-well-wishers/promptpay": {},
+    "/book-for-well-wishers/wishers": {}
+  }
+}
