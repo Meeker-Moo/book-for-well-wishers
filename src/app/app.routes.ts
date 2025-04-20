@@ -8,6 +8,6 @@ export const routes: Routes = [
     { path: 'wishers', component: WishersComponent },
     { path: 'list-wishers', component: ListWishersComponent },
     { path: 'promptpay', component: PromptpayComponent },
-    { path: '**', component: PageNotFoundComponent },
-    {path: '', redirectTo: '/wishers', pathMatch: 'full'},
+    {path: '', redirectTo: 'wishers', pathMatch: 'full'},
+    { path: '**', component: PageNotFoundComponent }
 ];
